@@ -2,7 +2,9 @@ const WebsiteVisitors = (props) => {
     return(
         <div className='websiteVisitors'>
             <h2>Website Visitors</h2>
-            <h3>{props.websiteVisitors}</h3>
+            <h1>{props.websiteVisitors}</h1>
+        <div className='websiteVisitorsBackground'>
+        </div>    
         </div>
     );
 };

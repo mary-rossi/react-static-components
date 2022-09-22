@@ -7,12 +7,12 @@ import Sidebar from './Sidebar';
 
 function Dashboard() {
     return(
-        <div className='Dashboard'>
-            <AverageRating rating='4.6' />
+        <div className='dashboard'>
+            <Sidebar />
             <Review reviews='1,281' />
+            <AverageRating rating='4.6' />
             <SentimentAnalysis sentimentAnalysisOne="960" sentimentAnalysisTwo="122" sentimentAnalysisThree="321" />
             <WebsiteVisitors websiteVisitors="821" />
-            <Sidebar />
         </div>
     );
 };

@@ -2,9 +2,9 @@ const SentimentAnalysis = (props) => {
     return(
         <div className='sentimentAnalysis'>
             <h2>Sentiment Analysis</h2>
-            <h3>{props.sentimentAnalysisOne}</h3>
-            <h3>{props.sentimentAnalysisTwo}</h3>
-            <h3>{props.sentimentAnalysisThree}</h3>
+            <h1>{props.sentimentAnalysisOne}</h1>
+            <h1>{props.sentimentAnalysisTwo}</h1>
+            <h1>{props.sentimentAnalysisThree}</h1>
         </div>
     );
 };
